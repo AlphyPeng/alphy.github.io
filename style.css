@@ -1,0 +1,77 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.dark-navbar {
+  background-color: black;
+}
+
+.yellow-text {
+  color: #faa60a;
+}
+
+/* Home Section */
+.home {
+  background: #000;
+}
+
+.home .yellow-button {
+  border: #faa60a 2px solid;
+  font-weight: bold;
+}
+
+.home .yellow-button:hover {
+  background-color: #faa60a !important;
+}
+
+.home .height {
+  height: 100vh;
+}
+
+.about .height {
+  height: 50vh;
+}
+
+.about .image-stacks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.about .image-stacks .col-md-3 {
+  flex: 0 0 calc(25% - 20px);
+  margin: 10px;
+}
+
+.about .image-stacks img {
+  width: 60%;
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .about .image-stacks .col-md-3 {
+    flex-basis: calc(20%);
+    justify-content: center;
+  }
+}
+
+.contact {
+  background-color: #000;
+}
+
+.contact .yellow-button {
+  border: #faa60a 2px solid;
+  font-weight: bold;
+}
+
+.contact .yellow-button:hover {
+  background-color: #faa60a !important;
+}
+
+.contact .placeholder-bg::placeholder {
+  color: transparent; /* Hide the placeholder text */
+}
+.contact .placeholder-bg {
+  background-color: rgb(129, 15, 15); /* Change this to your desired color */
+}
